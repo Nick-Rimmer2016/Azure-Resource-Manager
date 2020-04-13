@@ -1,4 +1,4 @@
-# Azure-Resource-Manager   
+# Azure Resource Manager   ---   MasterClass
 
 Following along with Sam Cogan's course on Azure Resource Manager
 
