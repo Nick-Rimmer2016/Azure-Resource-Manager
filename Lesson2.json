@@ -1,11 +1,32 @@
 {
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
-    "parameters": {},
+    "parameters": {
+        "storageaccountname": {
+           "type": "string",
+           "metadata": {
+                "description": "Name of Storage Account"
+            }
+        },
+        "StorageAccountType": {
+           "type": "string",
+           "metadata": {
+                "description": "Type of Storage Account"
+            },
+        "allowedValues": [
+            "Standard_LRS",
+            "Standard_GRS",
+            "Standard_ZRS",
+            "Premium_LRS"
+        ],
+        "defaultValue": "Standard_LRS"
+
+        }
+    },
     "variables": {},
     "resources": [
         {
-            "name": "masterclass21042020",
+            "name": "[parameters('storageaccountname')]",
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2015-06-15",
             "location": "[resourceGroup().location]",
@@ -13,7 +34,7 @@
                 "displayName": "masterclass21042020"
             },
             "properties": {
-                "accountType": "Standard_LRS"
+                "accountType": "[parameters('StorageAccountType')]"
             }
         }
     ],
