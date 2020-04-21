@@ -5,12 +5,12 @@
     "variables": {},
     "resources": [
         {
-            "name": "masterclass001",
+            "name": "masterclass21042020",
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2015-06-15",
             "location": "[resourceGroup().location]",
             "tags": {
-                "displayName": "masterclass001"
+                "displayName": "masterclass21042020"
             },
             "properties": {
                 "accountType": "Standard_LRS"
