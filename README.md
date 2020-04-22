@@ -7,7 +7,7 @@ https://youtu.be/9EpBiud48Ao
 
 ```New-AzResourceGroupDeployment -name "xxxxxxxxxxxxxxx" -ResourceGroupName "SC_ARM" -TemplateFile <path>```
 
-Part Two
+Part Two   
 https://youtu.be/UWvyKODhMM4
 
 Part Three   
