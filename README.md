@@ -3,9 +3,7 @@
 Following along with Sam Cogan's course on Azure Resource Manager
 
 Part One   
-https://youtu.be/9EpBiud48Ao
-
-```New-AzResourceGroupDeployment -name "xxxxxxxxxxxxxxx" -ResourceGroupName "SC_ARM" -TemplateFile <path>```
+https://youtu.be/9EpBiud48Ao   
 
 Part Two   
 https://youtu.be/UWvyKODhMM4
