@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storageAccountName": {
-            "value": "episode3"
+            "value": "episode4"
         },
         "storageAccountType": {
             "value": "Standard_LRS"

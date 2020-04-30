@@ -5,7 +5,7 @@ $ParametersObj = @{
 
 New-AzResourceGroupDeployment -name "22042020_Deployment" -ResourceGroupName "SC_ARM" -TemplateFile .\template.json -templateparameterobject $ParametersObj
 
-New-AzResourceGroupDeployment -name "22042020_Deployment" -ResourceGroupName "SC_ARM" -TemplateFile .\template.json -TemplateParameterFile .\template.parameter.json
+New-AzResourceGroupDeployment -name "30042020_Deployment" -ResourceGroupName "SC_ARM" -TemplateFile .\template.json -TemplateParameterFile .\template.parameter.json
 
 ## KeyVault
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/key-vault-parameter?tabs=azure-cli

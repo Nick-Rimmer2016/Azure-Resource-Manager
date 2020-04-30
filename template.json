@@ -27,12 +27,12 @@
     },
     "resources": [
         {
-            "name": "[parameters('storageAccountName')]",
+            "name": "[toLower(concat(parameters('storageAccountName'),uniqueString(resourceGroup().id)))]",
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "[variables('storageApiVersion')]",
             "location": "[resourceGroup().location]",
             "tags": {
-                "displayName": "masterclass001"
+                "displayName": "[toLower(concat(parameters('storageAccountName'),uniqueString(resourceGroup().id)))]"
             },
             "properties": {
                 "accountType": "[parameters('storageAccountType')]"
