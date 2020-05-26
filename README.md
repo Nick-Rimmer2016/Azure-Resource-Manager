@@ -18,3 +18,6 @@ https://youtu.be/UzQeZaC7DWw
 
 Part Six
 https://youtu.be/kf6Oi5zBQ1k
+
+Part Seven
+https://youtu.be/8pIEBMD1sYc
