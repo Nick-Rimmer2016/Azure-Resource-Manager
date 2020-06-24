@@ -1,6 +1,6 @@
 ## Azure Resource Manager --- MasterClass   
 
-## Following along with Sam Cogan's course on Azure Resource Manager
+### Following along with Sam Cogan's course on Azure Resource Manager
 
 Part One
 <https://youtu.be/9EpBiud48Ao>
@@ -25,3 +25,9 @@ Part Seven
 
 Part Eight
 <https://youtu.be/Q8SA8di1510>
+
+Part Nine
+<https://youtu.be/x7ZOIKex7aw>
+
+Part Ten
+<https://youtu.be/OyzwNfaW3GE>
