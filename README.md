@@ -31,3 +31,12 @@ Part Nine
 
 Part Ten
 <https://youtu.be/OyzwNfaW3GE>
+
+Part Eleven
+<https://youtu.be/s0MC-SsbhvY>
+
+Part Twelve
+https://youtu.be/m6UK8K9Oo3o
+
+Part Thirteen
+https://youtu.be/m6UK8K9Oo3o
